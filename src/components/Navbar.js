@@ -1,9 +1,12 @@
 import React from "react";
+import navbarImg from "../logo.svg"
 
 const Navbar = () => {
   return (
     <nav>
-      <div>O Tapis embaça!</div>
+      <div>
+        <img alt="pokeapi-logo" src={navbarImg} className="navbar-img" />
+      </div>
     </nav>
   );
 };
